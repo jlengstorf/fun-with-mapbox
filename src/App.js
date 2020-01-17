@@ -6,7 +6,7 @@ import './App.css';
 
 const loadImage = (map, imgName) => {
   const img = document.createElement('img');
-  img.src = `http://localhost:3000/${imgName}.png`;
+  img.src = `/${imgName}.png`;
   img.alt = 'Charmander';
 
   img.addEventListener('load', () => {
